@@ -12,15 +12,7 @@ const Hero = ({ fetchPromise }) => {
 
   const handleCardClick = issue => {
     const alreadySelected = selectedIssues.find(i => i.id === issue.id);
-    if (alreadySelected) {
-      toast('⚠️ Already Added!', {
-        position: 'top-right',
-        autoClose: 3000,
-        style: { backgroundColor: 'white', color: 'black', fontWeight: 'bold' },
-        icon: '⚠️',
-      });
-      return;
-    }
+    
 
     toast('✅ In Progress!', {
       position: 'top-right',

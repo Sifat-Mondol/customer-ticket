@@ -19,7 +19,7 @@ const Navbar = () => {
                 </a>
               );
             })}
-            <button className="btn text-white text-lg bg-[linear-gradient(125.07deg,rgba(99,46,227,1),rgba(159,98,242,1)_100%)] hover:cursor-pointer">
+            <button className="btn text-white bg-[linear-gradient(125.07deg,rgba(99,46,227,1),rgba(159,98,242,1)_100%)] hover:cursor-pointer">
               + New Ticket
             </button>
           </div>

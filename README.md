@@ -1,16 +1,42 @@
-# React + Vite
+1. What is JSX, and why is it used?
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+JSX stands for JavaScript XML, it is a syntax extension for JS that allows to
+write HTML like code in the JS.
 
-Currently, two official plugins are available:
+2. What is the difference between State and Props?
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+State is used within a component, Props are data passed from parent component to
+child component.
 
-## React Compiler
+In State, component can changed the data, Props is Read-only, child component
+can't change the data
 
-The React Compiler is not enabled on this template. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+3. What is the useState hook, and how does it work?
 
-## Expanding the ESLint configuration
+The useState hook is a build-in React function that allows to add changeable
+data state to functional component.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Syntax=> const [stateValue, setStateValue] = useState(initialValue);
+
+Here, InitialValue is a initial value returns when the component first renders.
+
+stateValue is the current state of the value
+
+setStateValue is the setter function that allows to update the stateValue
+
+4. How can you share state between components in React?
+
+State Lifting or Lifting State Up is the way to share state between components
+in React.
+
+We can pass the state as props in a component, then receive the props as
+destructuring in a component function.
+
+5. How is event handling done in React?
+
+Event handling in React is similar to how it's done in plain HTML, but with a
+few key differences based on React's philosophy.
+
+Here, tells React to run handleClick() when the button is clicked.
+
+The function is not called immediately.

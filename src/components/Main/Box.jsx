@@ -23,12 +23,12 @@ const Box = ({ count, resolvedCount }) => {
         </div>
         <div className="box box-2 relative">
           <img
-            className="absolute bottom-0 left-0 object-contain"
+            className="absolute bottom-0 left-0 h-full object-contain"
             src={vector1}
             alt=""
           />
           <img
-            className="absolute bottom-0 right-0 object-contain"
+            className="absolute bottom-0 right-0 h-full object-contain"
             src={vector1}
             alt=""
           />

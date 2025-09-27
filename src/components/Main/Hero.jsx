@@ -36,7 +36,7 @@ const Hero = ({ fetchPromise }) => {
     setSelectedIssues(prev => prev.filter(i => i.id !== issue.id));
     setResolvedIssues(prev => [...prev, issue]);
     setTickets(prev => prev.filter(i => i.id !== issue.id));
-    toast('Complete!✅', {
+    toast('Complete!', {
       position: 'top-right',
       autoClose: 2000,
       style: { backgroundColor: 'white', color: 'black', fontWeight: 'bold' },

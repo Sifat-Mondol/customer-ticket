@@ -108,7 +108,7 @@ const Card = ({
             ))}
           </div>
 
-          <div className="flex flex-col mt-10 space-y-2 mx-2 md:mx-0">
+          <div className="flex flex-col mt-10 space-y-2 md:mx-0">
             <h1 className="text-2xl font-medium text-[#34485a]">
               Resolved Task
             </h1>

@@ -84,7 +84,6 @@ const Card = ({
           })}
         </div>
 
-        {/* // Right side */}
         <div className="grid col-span-12 md:col-span-2 content-start">
           {selectedIssues.length === 0 && (
             <p className="text-gray-500 text-sm">
@@ -109,7 +108,6 @@ const Card = ({
             ))}
           </div>
 
-          {/* // Resolved Task */}
           <div className="flex flex-col mt-10 space-y-2 mx-2 md:mx-0">
             <h1 className="text-2xl font-medium text-[#34485a]">
               Resolved Task

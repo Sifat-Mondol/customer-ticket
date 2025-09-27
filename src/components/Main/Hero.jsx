@@ -32,7 +32,6 @@ const Hero = ({ fetchPromise }) => {
     setSelectedIssues(prev => [...prev, issue]);
   };
 
-  // Complete a task
   const handleComplete = issue => {
     setSelectedIssues(prev => prev.filter(i => i.id !== issue.id));
     setResolvedIssues(prev => [...prev, issue]);

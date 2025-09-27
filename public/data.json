@@ -1,0 +1,92 @@
+[
+  {
+    "id": 1001,
+    "title": "Multi-Currency Checkout Implementation",
+    "description": "Integrate a new payment gateway to support multiple currencies and streamline online transactions.",
+    "customer": "Liam O'Connell",
+    "priority": "High Priority",
+    "status": "In Progress",
+    "createdAt": "2026-01-05"
+  },
+  {
+    "id": 1002,
+    "title": "Frontend Interface Modernization",
+    "description": "Improve the user interface and overall user experience for the web application's new layout.",
+    "customer": "Isabella Rossi",
+    "priority": "Medium Priority",
+    "status": "Open",
+    "createdAt": "2026-01-12"
+  },
+  {
+    "id": 1003,
+    "title": "Developer Endpoint Blueprint",
+    "description": "Create comprehensive documentation for the new API endpoints for developers and partners.",
+    "customer": "Kenji Tanaka",
+    "priority": "High Priority",
+    "status": "In Progress",
+    "createdAt": "2026-01-19"
+  },
+  {
+    "id": 1004,
+    "title": "Helpdesk Workflow Automation",
+    "description": "Develop a new system to manage customer support tickets efficiently and track resolution times.",
+    "customer": "Lena Schmidt",
+    "priority": "Low Priority",
+    "status": "In Progress",
+    "createdAt": "2026-01-26"
+  },
+  {
+    "id": 1005,
+    "title": "Storage Cost Reduction Initiative",
+    "description": "Optimize cloud storage usage to reduce costs and improve overall data access performance.",
+    "customer": "Javier Garcia",
+    "priority": "Medium Priority",
+    "status": "Open",
+    "createdAt": "2026-02-02"
+  },
+  {
+    "id": 1006,
+    "title": "Internal Infrastructure Vulnerability Scan",
+    "description": "Conduct a full security audit of the company's internal network to identify vulnerabilities.",
+    "customer": "Chloe Dubois",
+    "priority": "High Priority",
+    "status": "Open",
+    "createdAt": "2026-02-09"
+  },
+  {
+    "id": 1007,
+    "title": "Performance Tuning of Data Queries",
+    "description": "Optimize slow database queries to improve application responsiveness and user experience.",
+    "customer": "Priya Sharma",
+    "priority": "Low Priority",
+    "status": "In Progress",
+    "createdAt": "2026-02-16"
+  },
+  {
+    "id": 1008,
+    "title": "Quarterly User Experience Review",
+    "description": "Analyze user feedback from the last quarter and identify key trends for improvements.",
+    "customer": "Hans Müller",
+    "priority": "Medium Priority",
+    "status": "Open",
+    "createdAt": "2026-02-23"
+  },
+  {
+    "id": 1009,
+    "title": "Real-Time Chat Feature Deployment",
+    "description": "Develop and integrate a new feature for live chat functionality on the website.",
+    "customer": "Sofia Ivanova",
+    "priority": "High Priority",
+    "status": "In Progress",
+    "createdAt": "2026-03-02"
+  },
+  {
+    "id": 1010,
+    "title": "Executive Metrics Dashboard Build",
+    "description": "Create a new dashboard for sales and performance reporting for management teams.",
+    "customer": "Marcello Silva",
+    "priority": "Low Priority",
+    "status": "In Progress",
+    "createdAt": "2026-03-09"
+  }
+]

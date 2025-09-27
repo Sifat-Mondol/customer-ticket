@@ -12,7 +12,9 @@ const Hero = ({ fetchPromise }) => {
 
   const handleCardClick = issue => {
     const alreadySelected = selectedIssues.find(i => i.id === issue.id);
-    
+    if (alreadySelected) {
+      return;
+    }
 
     toast('✅ In Progress!', {
       position: 'top-right',

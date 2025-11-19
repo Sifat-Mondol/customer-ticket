@@ -1,42 +1,29 @@
-1. What is JSX, and why is it used?
+Certainly. Here is a quick summary of what the Customer Support Zone project does and what core technologies were used to build it:
 
-JSX stands for JavaScript XML, it is a syntax extension for JS that allows to
-write HTML like code in the JS.
+⚙️ Project Functionality (What It Does)
+The "Customer Support Zone" project functions as a simple, interactive ticketing dashboard designed for a support team.
 
-2. What is the difference between State and Props?
+The main tasks the application performs are:
 
-State is used within a component, Props are data passed from parent component to
-child component.
+Display Tickets: It retrieves customer complaints or tickets (from JSON data) and displays them neatly as cards in a dashboard.
 
-In State, component can changed the data, Props is Read-only, child component
-can't change the data
+Track Progress: Users can move a ticket to an "In Progress" status by clicking its card, indicating work has started.
 
-3. What is the useState hook, and how does it work?
+Update Status: It tracks and moves tickets to a "Resolved" status once the task is marked as complete.
 
-The useState hook is a build-in React function that allows to add changeable
-data state to functional component.
+Show Statistics: The main banner dynamically calculates and displays the count of tickets currently "In Progress" and those that have been "Resolved."
 
-Syntax=> const [stateValue, setStateValue] = useState(initialValue);
+Provide Feedback: It uses attractive toast notifications (instead of pop-up alerts) to inform the user about key actions like starting or finishing a task.
 
-Here, InitialValue is a initial value returns when the component first renders.
+In essence, it models a basic Ticket Management System for controlling a support team's workflow.
 
-stateValue is the current state of the value
+🛠️ Technologies Used
+The project is built using modern front-end technologies and libraries:
 
-setStateValue is the setter function that allows to update the stateValue
+React.js: The primary framework used to build the entire user interface (UI), manage the component structure, and handle the application's dynamic state.
 
-4. How can you share state between components in React?
+JavaScript / JSON: JSON (JavaScript Object Notation) is used to store and supply the initial static data for the customer tickets.
 
-State Lifting or Lifting State Up is the way to share state between components
-in React.
+React-Toastify: This library provides the sophisticated and styled toast notifications used for user feedback.
 
-We can pass the state as props in a component, then receive the props as
-destructuring in a component function.
-
-5. How is event handling done in React?
-
-Event handling in React is similar to how it's done in plain HTML, but with a
-few key differences based on React's philosophy.
-
-Here, tells React to run handleClick() when the button is clicked.
-
-The function is not called immediately.
+CSS/Styling: Used to implement the specific Figma design requirements, ensuring the layout is clean, visually appealing, and fully Responsive across different screen sizes.
